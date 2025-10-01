@@ -42,3 +42,24 @@ let myFunction = function(){
 }
 
 // console.log(typeof myFunction) // function (But we call it as Object Function.)
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) 
+// Heap (Non-Primitive) 
+
+// let myStageName = "Kushagra"
+// let anotherName = myStageName
+// anotherName = "Kapish"
+// console.log(myStageName)
+// console.log(anotherName)
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl",
+}
+let userTwo = userOne
+userTwo.email = "kushagraaggarwal76@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
